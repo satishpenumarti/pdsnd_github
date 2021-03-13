@@ -15,7 +15,8 @@ weekdays = ('sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday',
 
 
 def choice(prompt, choices=('y', 'n')):
-    """Return a valid input from the user given an array of possible answers.
+    """Return a suitable input from the user if an array of possible answers is given.
+
     """
 
     while True:
@@ -41,7 +42,7 @@ def choice(prompt, choices=('y', 'n')):
 
 def get_filters():
     """Ask user to specify city(ies) and filters, month(s) and weekday(s).
-    Returns:
+    Returns the following:
         (str) city -name of the city(ies) to analyze
         (str) month -name of the month(s) to filter
         (str) day -name of the day(s) of week to filter
