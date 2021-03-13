@@ -159,7 +159,7 @@ def time_stats(df):
 def station_stats(df):
     """Display statistics on the most popular stations and trip."""
 
-    print('\nCalculating The Most Popular Stations and Trip...\n')
+    print('\n This is for calculating the Most Popular Stations and Trip...\n')
     start_time = time.time()
 
     # display most commonly used start station
@@ -255,9 +255,9 @@ def user_stats(df, city):
 
 
 def raw_data(df, mark_place):
-    """Display 5 line of sorted raw data each time."""
+    """This is to display 5 line of sorted raw data each time."""
 
-    print("\nYou opted to view raw data.")
+    print("\nYou now have opted to view raw data.")
 
     # this variable holds where the user last stopped
     if mark_place > 0:
